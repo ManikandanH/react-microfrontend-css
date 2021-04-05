@@ -1,0 +1,46 @@
+
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    font-size: 2rem;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 0.1rem solid grey;
+    background-color: white;
+}
+
+.header .app-nav a {
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1.6rem;
+    color: black;
+    cursor: pointer;
+}
+
+.header .login-nav button a { 
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.header .login-nav {
+    padding-right: 3rem;
+}
+
+.header .login-nav button {
+    border: 1px solid blueviolet;
+    outline: none;
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    background-color: transparent;
+}
+
+.header .login-nav button:hover {
+    background-color: rgb(230, 230, 230);
+}

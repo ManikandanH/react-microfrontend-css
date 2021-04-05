@@ -1,0 +1,62 @@
+.button-section .button-1 a {
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.button-section .button-1 {
+    border: none;
+    outline: none;
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.button-section .button-2 a {
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.button-section .button-2 {
+    border: none;
+    outline: none;
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    margin: 0 0 0 1rem;
+}
+
+.image-container img {
+    width: 22rem;
+    height: 16rem;
+    margin: 0;
+}
+
+.card-container {
+    width: 22rem;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.heading-container .content-heading {
+    margin: 0 0 0 1rem !important;
+    padding: 1rem 0 1rem 0 !important;
+}
+
+.heading-container .content-heading h2 {
+    margin: 0 !important;
+}
+
+.heading-container .content-paragraph p {
+    margin: 0;
+}
+.heading-container .content-paragraph {
+    margin: 0 0 0 1rem;
+}

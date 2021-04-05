@@ -1,0 +1,79 @@
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content-heading {
+    margin: 3rem 0 0 0;
+    font-size: 1.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.container .content-description {
+    width: 34rem;
+    text-align: center;
+    color: grey;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1.5rem;
+}
+
+.button-container {
+    margin: 2rem;
+}
+
+.button-container .button-2 a { 
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.button-container .button-2  {
+    border: 1px solid blueviolet;
+    outline: none;
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    background-color: transparent;
+}
+
+.button-container .button-1 a { 
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+.button-container .button-1  {
+    border: 1px solid blueviolet;
+    outline: none;
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    background-color: blue;
+    margin: 1rem;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 728px) {
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .container .content-description {
+        width: 100%;
+    }
+  }
